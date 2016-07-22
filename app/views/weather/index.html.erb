@@ -1,2 +1,14 @@
-<h1>Weather#index</h1>
-<p>Find me in app/views/weather/index.html.erb</p>
+<div id="errything">
+
+
+    <h1>Today's Weather</h1>
+    <h2>Miami, Florida</h2>
+    <h3><%= @today %></h3>
+
+    <p>Enjoy today's weather in Miami, Florida!</p>
+      <!-- <h3>Today's temperature:&nbsp;<%= @temp %>&nbsp;degrees Farenheit</h3> -->
+      <h3><%= @description %></h3>
+      <h3><%= image_tag("http://openweathermap.org/img/w/#{@image}.png") %></h3>
+      <h3><%= @degrees %>&nbsp;degrees Fahrenheit</h3>
+  
+</div>

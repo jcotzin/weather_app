@@ -1,3 +1,16 @@
 // Place all the styles related to the weather controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#errything {
+  position: relative;
+   height: 200px;
+   width: 400px;
+   margin: 130px 0 0 -200px;
+   top: 50%;
+   left: 50%;
+   z-index: 3;
+}
+body {
+  background-image: url('http://images.boomsbeat.com/data/images/full/3354/miami11.jpg');
+  background-size:cover;
+}
